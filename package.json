@@ -4,9 +4,8 @@
   "description": "Making new project of Typescript Phaser from zero",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "npm install --dev",
-    "build": "webpack",
-    "start": "webpack --watch & live-server --port=8085"
+    "start": "live-server",
+    "build": "webpack"
   },
   "author": "Aditya Pratama",
   "license": "MIT",
@@ -17,5 +16,11 @@
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2",
+    "live-server": "^1.2.1",
+    "webpack": "^4.42.0"
   }
 }

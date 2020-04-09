@@ -4,6 +4,7 @@
   "description": "Making new project of Typescript Phaser from zero",
   "main": "index.js",
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
     "build": "webpack",
     "start": "webpack --watch & live-server --port=8085"
   },

@@ -1,4 +1,5 @@
 import "phaser";
+import { PreloadScene } from "./Scripts/Scenes/preloadScene";
 import { WelcomeScene } from "./Scripts/Scenes/welcomeScene";
 import { MainScene } from "./Scripts/Scenes/mainScene";
 type GameConfig = Phaser.Types.Core.GameConfig;
@@ -9,7 +10,7 @@ const config: GameConfig =
   width: 1280,
   height: 720,
   parent: "game",
-  scene : [WelcomeScene, MainScene],
+  scene : [PreloadScene, WelcomeScene, MainScene],
   physics : {
       default : "arcade",
       arcade : {

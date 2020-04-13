@@ -25,10 +25,10 @@ export class PreloadScene extends Phaser.Scene {
       this.load.spritesheet("player", "src/Assets/SpriteSheets/character.png", {frameWidth:96, frameHeight: 96});
   
       // Load SFX.
-      this.load.audio("jump", "src/Assets/Audios/SFX/jump.wav");
-      this.load.audio("drop", "src/Assets/Audios/SFX/drop.wav");
-      this.load.audio("dead", "src/Assets/Audios/SFX/dead.wav");
-      this.load.audio("slide", "src/Assets/Audios/SFX/slide.wav");
+      this.load.audio("jump", "src/Assets/Audios/SFX/Jump.wav");
+      this.load.audio("drop", "src/Assets/Audios/SFX/Drop.wav");
+      this.load.audio("dead", "src/Assets/Audios/SFX/Dead.wav");
+      this.load.audio("slide", "src/Assets/Audios/SFX/Slide.wav");
 
       // Load BGM.
       this.load.audio("bgm", "src/Assets/Audios/bgm.wav");
